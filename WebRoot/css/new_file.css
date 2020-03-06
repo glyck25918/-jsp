@@ -1,0 +1,318 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	top: 0px;
+}
+.beijing-1{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.se{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: fixed;
+    opacity: 0.3;
+}
+.dh{
+	margin-top:25px ;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+}
+.dh div{
+	float: left;
+}
+.iframe{
+	margin-top: 25px;
+	width: 100%;
+	height: 35px;
+	position: absolute;
+	border: none;
+}
+.top-left{
+	width: 300px;
+	height: 30px;
+	margin-left:70% ;
+	margin-top:3px ;
+}
+.top-left a{
+	text-decoration: none;
+	color: white;
+}
+
+.top-right{
+	margin-left:8% ;
+}
+.top-right span{
+	width: 50px;
+	height: 30px;
+	color: white;
+	font-size: 30px;
+}
+.top-left span{
+	margin: 10px;
+	font-size: 15px;
+}
+.statement{
+	left: 50%;
+	top: 50%;
+	margin-left: -500px;
+	margin-top: -100px;
+	position: absolute;
+	width: 1000px;
+	height: 200px;
+}
+.statement span{
+	color: white;
+	font-size: 30px;
+}
+.statement-l{
+	margin-left: 98%;
+}
+.statement-r{
+	margin-left: 0%;
+}
+.statement-z{
+	text-align: center;
+}
+.statement-t{
+	margin-top:20px ;
+	margin-left: 88%;
+}
+.statement-t span{
+	font-size:20px ;
+}
+.doudon{
+	animation: drop 1s ;
+}
+@keyframes drop {
+0% {
+		transform: translateY(-50px);
+	}
+20% {
+		transform: translateY(0px);
+	}
+40% {
+		transform: translateY(-30px);
+	}
+60% {
+		transform: translateY(0px);
+	}
+80% {
+		transform: translateY(-15px);
+	}				
+100% {
+		 transform: translateY(0px);
+	}
+}
+.ban{
+	margin-left: 80%;
+	top:95% ;
+	position: absolute;
+	color: white;
+	font-size:15px ;
+}
+.addlist{
+	position: absolute;
+	width: 300px;
+	height: 240px;
+	border-radius: 10%;
+	left: 50%;
+	margin-left: -150px;
+	top: 50%;
+	margin-top:-120px ;
+	line-height: 50px;
+	color: white;
+	background-color:#E3E3E3;
+	overflow: hidden;
+}
+#id,#password{
+	border-radius: 10%;
+	height: 25px;
+	border: 2px solid skyblue;
+	background-color:white;
+}
+.form{
+	margin-top: 40px;
+	text-align: center;
+}
+.tijiao{
+	width: 100px;
+	height: 40px;
+	border-radius:40% ;
+	background-color:skyblue ;
+	text-align: center;
+	margin: auto;
+	margin-top:10px ;
+	text-align: center;
+}
+.tijiao span{
+	position: relative;
+	top: -5px;
+}
+#addtop{
+	width: 100%;
+}
+#addtop div{
+	float: left;
+}
+.zhuche{
+	margin-left: 10%;
+}
+.fanhui{
+	margin-left: 60%;
+}
+#addtop a{
+	text-decoration: none;
+	color: white;
+}
+.tijiao:hover{
+	cursor:pointer;
+}
+#id1,#password1,#password2{
+	border-radius: 10%;
+	height: 25px;
+	border: 2px solid skyblue;
+	background-color:white;
+}
+.addlist2{
+	position: absolute;
+	width: 300px;
+	height: 280px;
+	border-radius: 10%;
+	left: 50%;
+	margin-left: -150px;
+	top: 50%;
+	margin-top:-140px ;
+	line-height: 50px;
+	color: white;
+	background-color:#E3E3E3;
+	overflow: hidden;
+}
+#outer{
+	width: 100%;
+	position: absolute;
+}
+#head{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	margin-top:200px ;
+}
+#head div{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid red ;
+	overflow: hidden;
+	margin: auto;
+}
+#head img{
+	width: 100%;
+	height: 100%;
+}
+#head p{
+	text-align: center;
+	font-size:20px ;
+	margin-top:5px ;
+	color: white;
+}
+.stodop{
+	width: 1400px;
+	margin: auto;
+	margin-top:50px ;
+}
+.stodop_top{
+	width: 100%;
+	height: 50px;
+}
+.stodop_top div{
+	border: 0.1px solid skyblue;
+	width: 33.3%;
+	float: left;
+	height: 100%;
+	text-align: center;
+	color: white;
+	font-size:20px ;
+}
+.stodop_top_color{
+	background-color: skyblue;
+}
+.stodop_top div span{
+	position: relative;
+	top: 10px;
+}
+#xiangshi{
+	width: 100%;
+	margin-top:80px ;
+}
+.qiehuan{
+	width:1200px ;
+	height: 150px;
+	border-bottom: 1px solid white;
+	margin: auto;
+	color: white;
+}
+.qiehuan p{
+	font-size:30px ;
+	margin-left:20% ;
+	margin-top:30px ;
+}
+.qiehuan span{
+	font-size:25px ;
+	margin-left:60% ;
+}
+.addxinyu{
+	margin-top:150px ;
+	margin-left:28% ;
+	color: white;
+}
+#yu{
+	font-size: 40px;
+	color: white;
+	border: 5px solid skyblue;
+	background-color: #AAAAAA;
+}
+#laiyuan {
+	width: 200px;
+	height: 30px;
+	border: 2px solid skyblue;
+	background-color: #AAAAAA;
+	margin-top:30px ;
+	color: white;
+}
+.addxinyutijiao{
+	margin-left: 30%;
+	margin-top:50px ;
+	width: 100px;
+	height: 50px;
+	background-color:skyblue ;
+	border-radius: 30%;
+	text-align: center;
+}
+.addxinyutijiao span{
+	position: relative;
+	top: 15px;
+}
+#a{
+	position: relative;
+	top: -25px;
+}
+.ann{
+	margin-top:200px ;
+	text-align: center;
+	color: white;
+}
+.di{
+	width: 100px;
+	height: 100px;
+}
+.xiugai table th{
+	color: skyblue;
+}
+.xiugai table td{
+	color: white;
+}

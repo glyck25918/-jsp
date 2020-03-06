@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+}
+::-webkit-scrollbar{
+	display:none;
+}
+.bj{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+.ys{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	opacity: 0.2;
+}
+
+
+#wai{
+	width: 100%;
+	position: absolute;
+}
+#nei{
+	width: 1800px;
+	height: 100%;
+	margin: auto;
+	margin-top: 100px;
+	
+}
+.dy{
+	height: 150px;
+	width: 1300px;
+	border-bottom: 1px solid white;
+	margin-left: -1500px;
+}
+.nc{
+	margin-left: 80px;
+	margin-top: -60px;
+}
+.t1{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	overflow:  hidden;
+	border: 1px solid red;
+	top: 30px;
+	position: relative;
+}
+.t1 img{
+	width: 100%;
+}
+.zd{
+	margin-left: 120px;
+	font-size: 22px;
+	width: 1150px;
+	text-align: center;
+	
+}
+.zd p{
+	
+}
+.t2{
+	margin-left: 75%;
+	margin-top: 5px;
+}
+.t2 div{
+	float: left;
+}
+.t2 img{
+	width: 35px;
+	height: 35px;
+}
+.t2 a{
+	top: 8px;
+	position: relative;
+	text-decoration: none;
+}
+.ta a:hover{
+	
+}
+.t3{
+	margin-left: 10px;
+}
+.zd1{
+	margin-left: 7px;
+}
+.t3 img{
+	width: 25px;
+	height: 25px;
+	margin-top:8px;
+}
+.t1 img {
+	transition: 0.8s ease;
+}
+.t1 img:hover{
+	transform: rotate(365deg) scale(1.8);
+}

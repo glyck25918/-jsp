@@ -1,0 +1,149 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #E28F99;
+}
+#main{
+	width: 1200px;
+	margin: 0 auto;
+}
+#head{
+	width: 700px;
+	background: #fff;
+	margin-top: -300px;
+	border-radius: 5px;
+	margin-left: 210px;
+	transition:ease-in-out 1s;
+    -moz-transition:ease-in-out 1s;
+    -webkit-transition:ease-in-out 1s;
+    -o-transition:ease-in-out 1s;
+}
+#head:hover{
+	box-shadow:0px 0px 2px 4px #fff;
+}
+#head_top{
+	width: 650px;
+	margin-top: 20px;
+	}
+.name{
+	margin-left: 50px;
+	margin-top: 30px;
+	font-size: 1pc;
+	font-weight: bold;
+	list-style: none;
+	padding-top: 30px;
+}
+.name li{
+	float: left;
+}
+.name img{
+	width: 20px;
+	margin-left: 10px;
+	position: relative;
+	margin-top: -2px;
+}
+.neir{
+	margin-left: 50px;
+	margin-top: 40px;
+	height:50px;
+}
+#head_center{
+	width: 600px;
+	border: solid 0.5px #ccc;
+	margin-left: 50px;
+	
+} 
+.pinl{
+	font-size: 23px;
+	list-style: none;
+	margin-top: 10px;
+	margin-left: 0px;
+	
+}
+.pinl li a{
+	color: black;
+	text-decoration: none;
+}
+.pinl li{
+	float: left;
+	margin-left: 20px;
+}
+.pinl li span{
+	font-size: 15px;	
+}
+.pinl li:hover{
+	color: #E28F99;
+}
+.head_center_1{
+	width: 600px;
+	margin-top: 50px;
+	background: #E6E6E6;
+}
+
+.head_center_2{
+	width: 600px;
+	height: 90px;
+	border: solid 1px #E6E6E6;
+}
+.pinglun{
+	list-style: none;
+	margin-top: 20px;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.pinglun li{
+	float: left;
+}
+
+.pinglun img{
+	width: 15px;
+	margin-left: 5px;
+	position: relative;
+	margin-top: -4px;
+}
+.pinglun_1{
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.pinglun_2{
+	font-size: 20px;
+	list-style: none;
+	margin-top: -10px;
+	margin-left: 470px;
+}
+.pinglun_2 li{
+	float: left;
+	margin-left: 20px;
+}
+.pinglun_2 li span{
+	font-size: 10px;
+}
+#reju{
+	width: 200px;
+	height: 230px;
+	background: #FFFFFF;
+	margin-top: 100px;
+}
+#reju .reju1{
+	margin-top: -57px;
+	width: 70px;
+	margin-left: -5px;
+}
+.re{
+	font-weight: bold;
+	margin-top: -10px;
+	margin-left: 20px;
+}
+.re1{
+	list-style: none;
+	font-size: 10px;
+	margin-left:25px;
+}
+.re1 li{
+	height: 20px;
+}
+
